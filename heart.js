@@ -53,7 +53,7 @@ var init = function () {
     var pointsOrigin = [];
     var dr = mobile ? 0.2 : 0.1;
     for (var i = 0; i < Math.PI * 2; i += dr) {
-        pointsOrigin.push(scaleAndTranslate(heartPosition(i), 230, 15, 0, 0));
+        pointsOrigin.push(scaleAndTranslate(heartPosition(i), 150, 10, 0, 0));
     }
     var heartPointsCount = pointsOrigin.length;
 
